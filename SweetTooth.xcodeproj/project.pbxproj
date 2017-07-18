@@ -8,20 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		32C7064C1F1E63AD00A1C1B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7064B1F1E63AD00A1C1B6 /* AppDelegate.swift */; };
-		32C7064E1F1E63AD00A1C1B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7064D1F1E63AD00A1C1B6 /* ViewController.swift */; };
-		32C706511F1E63AD00A1C1B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C7064F1F1E63AD00A1C1B6 /* Main.storyboard */; };
 		32C706531F1E63AD00A1C1B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C706521F1E63AD00A1C1B6 /* Assets.xcassets */; };
-		32C706561F1E63AD00A1C1B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C706541F1E63AD00A1C1B6 /* LaunchScreen.storyboard */; };
+		32C7065E1F1E672900A1C1B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7065D1F1E672900A1C1B6 /* main.swift */; };
+		32C7066B1F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C706691F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift */; };
+		32C706711F1E861C00A1C1B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C706701F1E861C00A1C1B6 /* Main.storyboard */; };
+		32C706751F1E862F00A1C1B6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32C706731F1E862F00A1C1B6 /* Info.plist */; };
+		32C706761F1E862F00A1C1B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C706741F1E862F00A1C1B6 /* LaunchScreen.storyboard */; };
+		32C706781F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C706771F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift */; };
+		32C7067C1F1E8C8400A1C1B6 /* iceCreamStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7067B1F1E8C8400A1C1B6 /* iceCreamStore.swift */; };
+		A7B78066565CC4DA236D8BA6 /* Pods_SweetTooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDED377036A091EF554A2914 /* Pods_SweetTooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32C706481F1E63AD00A1C1B6 /* SweetTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C7064B1F1E63AD00A1C1B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32C7064D1F1E63AD00A1C1B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		32C706501F1E63AD00A1C1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32C706521F1E63AD00A1C1B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		32C706551F1E63AD00A1C1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		32C706571F1E63AD00A1C1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C7065D1F1E672900A1C1B6 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		32C706691F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamSelectorViewController.swift; sourceTree = "<group>"; };
+		32C706701F1E861C00A1C1B6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		32C706731F1E862F00A1C1B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C706741F1E862F00A1C1B6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32C706771F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamDetailViewController.swift; sourceTree = "<group>"; };
+		32C7067B1F1E8C8400A1C1B6 /* iceCreamStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iceCreamStore.swift; sourceTree = "<group>"; };
+		56490869F3BB026329154FB3 /* Pods-SweetTooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetTooth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SweetTooth/Pods-SweetTooth.debug.xcconfig"; sourceTree = "<group>"; };
+		BDED377036A091EF554A2914 /* Pods_SweetTooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetTooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6BB0F2942023771CC3D88B /* Pods-SweetTooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetTooth.release.xcconfig"; path = "Pods/Target Support Files/Pods-SweetTooth/Pods-SweetTooth.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B78066565CC4DA236D8BA6 /* Pods_SweetTooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F8BE3F4920112A9FC4807CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56490869F3BB026329154FB3 /* Pods-SweetTooth.debug.xcconfig */,
+				ED6BB0F2942023771CC3D88B /* Pods-SweetTooth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		32C7063F1F1E63AD00A1C1B6 = {
 			isa = PBXGroup;
 			children = (
 				32C7064A1F1E63AD00A1C1B6 /* SweetTooth */,
 				32C706491F1E63AD00A1C1B6 /* Products */,
+				1F8BE3F4920112A9FC4807CA /* Pods */,
+				D0E120940BC0FDE7C7DE73B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +78,56 @@
 			isa = PBXGroup;
 			children = (
 				32C7064B1F1E63AD00A1C1B6 /* AppDelegate.swift */,
-				32C7064D1F1E63AD00A1C1B6 /* ViewController.swift */,
-				32C7064F1F1E63AD00A1C1B6 /* Main.storyboard */,
 				32C706521F1E63AD00A1C1B6 /* Assets.xcassets */,
-				32C706541F1E63AD00A1C1B6 /* LaunchScreen.storyboard */,
-				32C706571F1E63AD00A1C1B6 /* Info.plist */,
+				32C7065D1F1E672900A1C1B6 /* main.swift */,
+				32C706671F1E853E00A1C1B6 /* Controllers */,
+				32C7066F1F1E861C00A1C1B6 /* Storyboards */,
+				32C706721F1E862F00A1C1B6 /* Supporting */,
+				32C7067A1F1E8C7200A1C1B6 /* Models */,
 			);
 			path = SweetTooth;
+			sourceTree = "<group>";
+		};
+		32C706671F1E853E00A1C1B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32C706771F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift */,
+				32C706691F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		32C7066F1F1E861C00A1C1B6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				32C706701F1E861C00A1C1B6 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		32C706721F1E862F00A1C1B6 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				32C706731F1E862F00A1C1B6 /* Info.plist */,
+				32C706741F1E862F00A1C1B6 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		32C7067A1F1E8C7200A1C1B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32C7067B1F1E8C8400A1C1B6 /* iceCreamStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0E120940BC0FDE7C7DE73B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDED377036A091EF554A2914 /* Pods_SweetTooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32C7065A1F1E63AD00A1C1B6 /* Build configuration list for PBXNativeTarget "SweetTooth" */;
 			buildPhases = (
+				4BF776AC11AB9AF185281811 /* [CP] Check Pods Manifest.lock */,
 				32C706441F1E63AD00A1C1B6 /* Sources */,
 				32C706451F1E63AD00A1C1B6 /* Frameworks */,
 				32C706461F1E63AD00A1C1B6 /* Resources */,
+				E3CE039C4EA9DB1634178B73 /* [CP] Embed Pods Frameworks */,
+				E9A14E70B0AF861FD12A0CC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,44 +193,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C706561F1E63AD00A1C1B6 /* LaunchScreen.storyboard in Resources */,
+				32C706711F1E861C00A1C1B6 /* Main.storyboard in Resources */,
+				32C706761F1E862F00A1C1B6 /* LaunchScreen.storyboard in Resources */,
 				32C706531F1E63AD00A1C1B6 /* Assets.xcassets in Resources */,
-				32C706511F1E63AD00A1C1B6 /* Main.storyboard in Resources */,
+				32C706751F1E862F00A1C1B6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BF776AC11AB9AF185281811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3CE039C4EA9DB1634178B73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SweetTooth/Pods-SweetTooth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A14E70B0AF861FD12A0CC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SweetTooth/Pods-SweetTooth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32C706441F1E63AD00A1C1B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C7064E1F1E63AD00A1C1B6 /* ViewController.swift in Sources */,
+				32C706781F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift in Sources */,
+				32C7066B1F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift in Sources */,
+				32C7067C1F1E8C8400A1C1B6 /* iceCreamStore.swift in Sources */,
 				32C7064C1F1E63AD00A1C1B6 /* AppDelegate.swift in Sources */,
+				32C7065E1F1E672900A1C1B6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		32C7064F1F1E63AD00A1C1B6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32C706501F1E63AD00A1C1B6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		32C706541F1E63AD00A1C1B6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32C706551F1E63AD00A1C1B6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		32C706581F1E63AD00A1C1B6 /* Debug */ = {
@@ -259,6 +361,7 @@
 		};
 		32C7065B1F1E63AD00A1C1B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56490869F3BB026329154FB3 /* Pods-SweetTooth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HP5TNVW325;
@@ -272,6 +375,7 @@
 		};
 		32C7065C1F1E63AD00A1C1B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6BB0F2942023771CC3D88B /* Pods-SweetTooth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HP5TNVW325;
@@ -302,6 +406,7 @@
 				32C7065C1F1E63AD00A1C1B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

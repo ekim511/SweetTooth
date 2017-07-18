@@ -1,0 +1,18 @@
+PODS:
+  - BrightFutures (5.2.0):
+    - Result (~> 3.2)
+  - Result (3.2.3)
+  - YelpAPI (2.0.0)
+
+DEPENDENCIES:
+  - BrightFutures (~> 5.1)
+  - YelpAPI (~> 2.0)
+
+SPEC CHECKSUMS:
+  BrightFutures: 8681dbb9fa831b69b6e7dc4a498b9e081d5daeb5
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  YelpAPI: a0475cf4a7b6f9fe81f1bb7b8a8492770f21e3c7
+
+PODFILE CHECKSUM: 341f89c645e77bd4cf5db9de00e92749b6a02674
+
+COCOAPODS: 1.2.1
