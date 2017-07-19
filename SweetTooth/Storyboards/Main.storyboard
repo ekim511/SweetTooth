@@ -43,7 +43,7 @@
                                     <color key="titleColor" red="1" green="0.35440582479999999" blue="0.8791160214" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="iceCreamRandomButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6A-tU-Egb"/>
+                                    <segue destination="NSp-52-P35" kind="show" identifier="displayDetailView" id="iYQ-c1-7cZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -53,7 +53,6 @@
                         <outlet property="historyButton" destination="KK3-DY-ry5" id="UYr-i7-c0G"/>
                         <outlet property="iceCreamButtonLabel" destination="rV5-7G-JJ4" id="akB-wX-qam"/>
                         <outlet property="iceCreamRandomButton" destination="vUc-3k-GYp" id="6Fu-FN-MXA"/>
-                        <segue destination="NSp-52-P35" kind="show" id="rD7-AT-3kl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -100,7 +99,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.35440582479999999" blue="0.8791160214" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="continueButton" destination="OYZ-vD-Eoc" id="Xts-zC-QjA"/>

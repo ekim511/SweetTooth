@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		32C7064C1F1E63AD00A1C1B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7064B1F1E63AD00A1C1B6 /* AppDelegate.swift */; };
 		32C706531F1E63AD00A1C1B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C706521F1E63AD00A1C1B6 /* Assets.xcassets */; };
-		32C7065E1F1E672900A1C1B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7065D1F1E672900A1C1B6 /* main.swift */; };
 		32C7066B1F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C706691F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift */; };
 		32C706711F1E861C00A1C1B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C706701F1E861C00A1C1B6 /* Main.storyboard */; };
 		32C706751F1E862F00A1C1B6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32C706731F1E862F00A1C1B6 /* Info.plist */; };
 		32C706761F1E862F00A1C1B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C706741F1E862F00A1C1B6 /* LaunchScreen.storyboard */; };
 		32C706781F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C706771F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift */; };
-		32C7067C1F1E8C8400A1C1B6 /* iceCreamStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7067B1F1E8C8400A1C1B6 /* iceCreamStore.swift */; };
+		32C7067C1F1E8C8400A1C1B6 /* IceCreamStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7067B1F1E8C8400A1C1B6 /* IceCreamStore.swift */; };
+		32C7067E1F1E8EF600A1C1B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C7067D1F1E8EF600A1C1B6 /* Default-568h@2x.png */; };
+		32C706811F1E9B1400A1C1B6 /* YLPClient+Futures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C706801F1E9B1400A1C1B6 /* YLPClient+Futures.swift */; };
 		A7B78066565CC4DA236D8BA6 /* Pods_SweetTooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDED377036A091EF554A2914 /* Pods_SweetTooth.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,13 +24,14 @@
 		32C706481F1E63AD00A1C1B6 /* SweetTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C7064B1F1E63AD00A1C1B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32C706521F1E63AD00A1C1B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		32C7065D1F1E672900A1C1B6 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		32C706691F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamSelectorViewController.swift; sourceTree = "<group>"; };
 		32C706701F1E861C00A1C1B6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		32C706731F1E862F00A1C1B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C706741F1E862F00A1C1B6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32C706771F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamDetailViewController.swift; sourceTree = "<group>"; };
-		32C7067B1F1E8C8400A1C1B6 /* iceCreamStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iceCreamStore.swift; sourceTree = "<group>"; };
+		32C7067B1F1E8C8400A1C1B6 /* IceCreamStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamStore.swift; sourceTree = "<group>"; };
+		32C7067D1F1E8EF600A1C1B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		32C706801F1E9B1400A1C1B6 /* YLPClient+Futures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "YLPClient+Futures.swift"; path = "Helpers/YLPClient+Futures.swift"; sourceTree = "<group>"; };
 		56490869F3BB026329154FB3 /* Pods-SweetTooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetTooth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SweetTooth/Pods-SweetTooth.debug.xcconfig"; sourceTree = "<group>"; };
 		BDED377036A091EF554A2914 /* Pods_SweetTooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetTooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6BB0F2942023771CC3D88B /* Pods-SweetTooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetTooth.release.xcconfig"; path = "Pods/Target Support Files/Pods-SweetTooth/Pods-SweetTooth.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		32C7063F1F1E63AD00A1C1B6 = {
 			isa = PBXGroup;
 			children = (
+				32C7067D1F1E8EF600A1C1B6 /* Default-568h@2x.png */,
 				32C7064A1F1E63AD00A1C1B6 /* SweetTooth */,
 				32C706491F1E63AD00A1C1B6 /* Products */,
 				1F8BE3F4920112A9FC4807CA /* Pods */,
@@ -79,10 +82,10 @@
 			children = (
 				32C7064B1F1E63AD00A1C1B6 /* AppDelegate.swift */,
 				32C706521F1E63AD00A1C1B6 /* Assets.xcassets */,
-				32C7065D1F1E672900A1C1B6 /* main.swift */,
 				32C706671F1E853E00A1C1B6 /* Controllers */,
 				32C7066F1F1E861C00A1C1B6 /* Storyboards */,
 				32C706721F1E862F00A1C1B6 /* Supporting */,
+				32C7067F1F1E9AFA00A1C1B6 /* Helpers */,
 				32C7067A1F1E8C7200A1C1B6 /* Models */,
 			);
 			path = SweetTooth;
@@ -117,9 +120,17 @@
 		32C7067A1F1E8C7200A1C1B6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				32C7067B1F1E8C8400A1C1B6 /* iceCreamStore.swift */,
+				32C7067B1F1E8C8400A1C1B6 /* IceCreamStore.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		32C7067F1F1E9AFA00A1C1B6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				32C706801F1E9B1400A1C1B6 /* YLPClient+Futures.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		D0E120940BC0FDE7C7DE73B2 /* Frameworks */ = {
@@ -196,6 +207,7 @@
 				32C706711F1E861C00A1C1B6 /* Main.storyboard in Resources */,
 				32C706761F1E862F00A1C1B6 /* LaunchScreen.storyboard in Resources */,
 				32C706531F1E63AD00A1C1B6 /* Assets.xcassets in Resources */,
+				32C7067E1F1E8EF600A1C1B6 /* Default-568h@2x.png in Resources */,
 				32C706751F1E862F00A1C1B6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,9 +269,9 @@
 			files = (
 				32C706781F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift in Sources */,
 				32C7066B1F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift in Sources */,
-				32C7067C1F1E8C8400A1C1B6 /* iceCreamStore.swift in Sources */,
+				32C7067C1F1E8C8400A1C1B6 /* IceCreamStore.swift in Sources */,
+				32C706811F1E9B1400A1C1B6 /* YLPClient+Futures.swift in Sources */,
 				32C7064C1F1E63AD00A1C1B6 /* AppDelegate.swift in Sources */,
-				32C7065E1F1E672900A1C1B6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HP5TNVW325;
-				INFOPLIST_FILE = SweetTooth/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SweetTooth/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.SweetTooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -379,7 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HP5TNVW325;
-				INFOPLIST_FILE = SweetTooth/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SweetTooth/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.SweetTooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
