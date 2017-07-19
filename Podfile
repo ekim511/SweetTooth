@@ -9,6 +9,9 @@ target 'SweetTooth' do
 
   pod 'YelpAPI', '~> 2.0'
   pod 'BrightFutures', '~> 5.1'
+  pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git'
+  pod 'AlamofireImage', :git => 'https://github.com/Alamofire/AlamofireImage.git'
+  pod 'AlamofireNetworkActivityIndicator', :git => 'https://github.com/Alamofire/AlamofireNetworkActivityIndicator.git'
 
 end
 

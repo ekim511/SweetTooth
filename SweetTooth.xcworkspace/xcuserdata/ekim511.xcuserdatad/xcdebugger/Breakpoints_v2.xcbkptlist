@@ -28,11 +28,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SweetTooth/Controllers/IceCreamSelectorViewController.swift"
-            timestampString = "522172184.506111"
+            timestampString = "522178407.296361"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
             <Locations>
@@ -44,11 +44,11 @@
                   moduleName = "SweetTooth"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ekim511/Desktop/Summer%202017/Make%20School%20Projects/SweetTooth/SweetTooth/Controllers/IceCreamSelectorViewController.swift"
-                  timestampString = "522172258.317711"
+                  timestampString = "522182322.072948"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
                   offsetFromSymbolStart = "23">
                </Location>
                <Location
@@ -59,12 +59,12 @@
                   moduleName = "SweetTooth"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ekim511/Desktop/Summer%202017/Make%20School%20Projects/SweetTooth/SweetTooth/Controllers/IceCreamSelectorViewController.swift"
-                  timestampString = "522172258.320327"
+                  timestampString = "522182322.07616"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "269">
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "260">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -76,11 +76,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SweetTooth/Controllers/IceCreamSelectorViewController.swift"
-            timestampString = "522172184.506111"
+            timestampString = "522178407.296361"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -92,11 +92,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SweetTooth/Controllers/IceCreamSelectorViewController.swift"
-            timestampString = "522172184.506111"
+            timestampString = "522178407.296361"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "yelpQuery()"
             landmarkType = "7">
          </BreakpointContent>
@@ -108,11 +108,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SweetTooth/Controllers/IceCreamSelectorViewController.swift"
-            timestampString = "522172184.506111"
+            timestampString = "522178407.296361"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "yelpQuery()"
             landmarkType = "7">
          </BreakpointContent>

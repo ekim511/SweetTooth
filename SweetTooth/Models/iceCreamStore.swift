@@ -11,18 +11,26 @@ import YelpAPI
 
 class IceCreamStore {
     var name : String!
-    var location : NSObject?
+    var location : YLPLocation?
     //var price : Double?
     var rating : Double?
-    var imageURL : URL?
+    var imageURL : String?
     
     init(object: YLPBusiness){
         self.name = object.name
         self.location = object.location
         self.rating = object.rating
-        self.imageURL = object.imageURL
+        self.imageURL = String(describing: object.imageURL)
         
         
+    }
+    
+    func getAddress() -> String {
+        let address = location?.address
+        let city = location?.city
+        let state = location?.stateCode
+        let zipCode = location?.postalCode
+        return "\(address), \(city), \(state) \(zipCode)"
     }
     
 //    init(dictionary : [String : Any]) {

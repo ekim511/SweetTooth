@@ -16,10 +16,12 @@ class IceCreamSelectorViewController: UIViewController {
     let appSecret = "o3WyKYuDrv9ToWN71ruMHKUFWO6S6TNBrl0qcRpktkL3UpTIEe8qmRHrvvCVLeqR"
     var businesses = [YLPBusiness]()
     var store: IceCreamStore?
-    let group = DispatchGroup()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.yelpQuery()
+        iceCreamRandomButton.isEnabled = false
     }
     
     //MARK: - Properties
@@ -33,7 +35,7 @@ class IceCreamSelectorViewController: UIViewController {
         
     }
     
-    
+
     
     //Return array of businesses
     func yelpQuery(){
@@ -46,7 +48,7 @@ class IceCreamSelectorViewController: UIViewController {
             }.onSuccess { search in
                 self.businesses = search.businesses
                 self.store = self.getStore()
-                self.group.leave()
+                self.iceCreamRandomButton.isEnabled = true
             }.onFailure { error in
                 print("Search errored: \(error)")
                 exit(EXIT_FAILURE)
@@ -59,13 +61,10 @@ class IceCreamSelectorViewController: UIViewController {
             if identifier == "displayDetailView" {
                 print("Random ice cream button tapped")
                 
-                group.enter()
-                self.yelpQuery()
-                group.notify(queue: DispatchQueue.global(qos: .background)) {
                     let iceCreamDetailViewController = segue.destination as! IceCreamDetailViewController
                     iceCreamDetailViewController.store = self.store
                     print(iceCreamDetailViewController.store?.name)
-                }
+                
                 
                 
                 

@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AlamofireImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AlamofireNetworkActivityIndicator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>BrightFutures.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,7 +42,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>234DCAFE3092E2EEFB1C746A20C5F952</key>
+		<key>0F8A00FBDAF530387C644A96000085BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>115FA0D867E07C04838493890DBD8D29</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,12 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>78491FD2F3DC7825B23CFF22849E5836</key>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>98CC12EEDCA0ADE298C62268125E8304</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EFE4C70245EE2857D336B8B9FA4E825</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4EFB5B2674F34B36FB5B2A9C3EBD8BA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
