@@ -17,6 +17,7 @@
 		32C7067C1F1E8C8400A1C1B6 /* IceCreamStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7067B1F1E8C8400A1C1B6 /* IceCreamStore.swift */; };
 		32C7067E1F1E8EF600A1C1B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C7067D1F1E8EF600A1C1B6 /* Default-568h@2x.png */; };
 		32C706811F1E9B1400A1C1B6 /* YLPClient+Futures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C706801F1E9B1400A1C1B6 /* YLPClient+Futures.swift */; };
+		32C706831F20EB5000A1C1B6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C706821F20EB5000A1C1B6 /* Location.swift */; };
 		A7B78066565CC4DA236D8BA6 /* Pods_SweetTooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDED377036A091EF554A2914 /* Pods_SweetTooth.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		32C7067B1F1E8C8400A1C1B6 /* IceCreamStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamStore.swift; sourceTree = "<group>"; };
 		32C7067D1F1E8EF600A1C1B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		32C706801F1E9B1400A1C1B6 /* YLPClient+Futures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "YLPClient+Futures.swift"; path = "Helpers/YLPClient+Futures.swift"; sourceTree = "<group>"; };
+		32C706821F20EB5000A1C1B6 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		32C706841F20F9F600A1C1B6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		56490869F3BB026329154FB3 /* Pods-SweetTooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetTooth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SweetTooth/Pods-SweetTooth.debug.xcconfig"; sourceTree = "<group>"; };
 		BDED377036A091EF554A2914 /* Pods_SweetTooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetTooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6BB0F2942023771CC3D88B /* Pods-SweetTooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetTooth.release.xcconfig"; path = "Pods/Target Support Files/Pods-SweetTooth/Pods-SweetTooth.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				32C7067B1F1E8C8400A1C1B6 /* IceCreamStore.swift */,
+				32C706821F20EB5000A1C1B6 /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -136,6 +140,7 @@
 		D0E120940BC0FDE7C7DE73B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32C706841F20F9F600A1C1B6 /* CoreLocation.framework */,
 				BDED377036A091EF554A2914 /* Pods_SweetTooth.framework */,
 			);
 			name = Frameworks;
@@ -271,6 +276,7 @@
 				32C7066B1F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift in Sources */,
 				32C7067C1F1E8C8400A1C1B6 /* IceCreamStore.swift in Sources */,
 				32C706811F1E9B1400A1C1B6 /* YLPClient+Futures.swift in Sources */,
+				32C706831F20EB5000A1C1B6 /* Location.swift in Sources */,
 				32C7064C1F1E63AD00A1C1B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

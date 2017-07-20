@@ -11,26 +11,34 @@ import YelpAPI
 
 class IceCreamStore {
     var name : String!
-    var location : YLPLocation?
-    //var price : Double?
-    var rating : Double?
+    var rating : String?
     var imageURL : String?
+    
+    var location : YLPLocation?
+    var address = ""
+    var city = ""
+    var state = ""
+    var zipCode = ""
+    var fullAddress = ""
     
     init(object: YLPBusiness){
         self.name = object.name
         self.location = object.location
-        self.rating = object.rating
-        self.imageURL = String(describing: object.imageURL)
+        self.rating = String(describing:object.rating)
         
+        if let imageURLConst = object.imageURL {
+            self.imageURL = String(describing :imageURLConst)
+        }
         
+        setAddress()
     }
     
-    func getAddress() -> String {
-        let address = location?.address
-        let city = location?.city
-        let state = location?.stateCode
-        let zipCode = location?.postalCode
-        return "\(address), \(city), \(state) \(zipCode)"
+    func setAddress() {
+        address = (location?.address[0])!
+        city = (location?.city)!
+        state = (location?.stateCode)!
+        zipCode = (location?.postalCode)!
+        fullAddress = "\(address), \(city), \(state) \(zipCode)"
     }
     
 //    init(dictionary : [String : Any]) {
