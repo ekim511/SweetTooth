@@ -40,6 +40,8 @@ class IceCreamDetailViewController: UIViewController {
         if let imageURLConst = store?.imageURL {
             loadPoster(urlString: imageURLConst)
         }
+        repickRandomIceCreamButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
+        
     
     }
 

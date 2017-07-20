@@ -22,6 +22,7 @@ class IceCreamSelectorViewController: UIViewController, CLLocationManagerDelegat
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        iceCreamRandomButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
         locationManager.requestAlwaysAuthorization()
         locationManager.requestWhenInUseAuthorization()
         setUpLocationManager()
