@@ -17,7 +17,7 @@ class IceCreamDetailViewController: UIViewController {
     @IBOutlet weak var storeNameLabel: UILabel!
     @IBOutlet weak var repickRandomIceCreamButton: UIButton!
 
-    @IBOutlet weak var shareButton: UIButton!
+
     @IBOutlet weak var locationLabel: UILabel!
 
     @IBOutlet weak var ratingLabel: UILabel!
@@ -25,6 +25,7 @@ class IceCreamDetailViewController: UIViewController {
     
     @IBOutlet weak var storePicImageView: UIImageView!
     
+    @IBOutlet weak var shareButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,9 +57,8 @@ class IceCreamDetailViewController: UIViewController {
     }
     
 
-    @IBAction func shareButtonTapped(_ sender: UIButton) {
+    @IBAction func shareButonTapped(_ sender: UIButton) {
     }
-    
 
       
     

@@ -75,13 +75,6 @@ class IceCreamSelectorViewController: UIViewController, CLLocationManagerDelegat
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("Error while updating location " + error.localizedDescription)
     }
-    
-    
-    
-
-    
-
-    
 
     
     //Return array of businesses
@@ -89,6 +82,7 @@ class IceCreamSelectorViewController: UIViewController, CLLocationManagerDelegat
         let query = YLPQuery(coordinate: yelpCoordinate!)
         query.term = "ice cream"
         query.limit = 10
+        query.radiusFilter = 560
         
         YLPClient.authorize(withAppId: appId, secret: appSecret).flatMap { client in
             client.search(withQuery: query)
