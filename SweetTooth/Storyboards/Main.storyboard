@@ -37,7 +37,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vUc-3k-GYp" secondAttribute="height" multiplier="263:482" id="xiQ-aA-rsH"/>
                                 </constraints>
-                                <state key="normal" image="Mr Softee">
+                                <state key="normal" image="Mr Softee w:Tap Me">
                                     <color key="titleColor" red="1" green="0.35440582479999999" blue="0.8791160214" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -75,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+            <point key="canvasLocation" x="31.884057971014496" y="37.5"/>
         </scene>
         <!--Ice Cream Detail View Controller-->
         <scene sceneID="1Qi-0P-KAQ">
@@ -101,7 +101,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="LLK-Lc-per">
                                 <rect key="frame" x="42" y="421" width="330" height="60.666666666666686"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Zk-cJ-0GY">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Zk-cJ-0GY">
                                         <rect key="frame" x="105.66666666666667" y="0.0" width="118.66666666666664" height="20.333333333333314"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -128,7 +128,7 @@
                                     <constraint firstAttribute="width" secondItem="WXg-rf-U9Q" secondAttribute="height" multiplier="2:5" id="wDS-Tq-3xY"/>
                                     <constraint firstAttribute="width" constant="60" id="y8U-Mr-PAf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="11"/>
                                 <state key="normal" title="Back" backgroundImage="Mr Softee">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -185,5 +185,6 @@
     <resources>
         <image name="BG" width="375" height="667"/>
         <image name="Mr Softee" width="180" height="482"/>
+        <image name="Mr Softee w:Tap Me" width="540" height="1446"/>
     </resources>
 </document>
