@@ -10,6 +10,11 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Candara Bold.ttf">
+            <string>Candara-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Ice Cream Selector View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -23,31 +28,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="qOe-lu-gDU">
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="qOe-lu-gDU">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find me some dessert!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rV5-7G-JJ4">
-                                <rect key="frame" x="87" y="573.66666666666663" width="240" height="31"/>
-                                <fontDescription key="fontDescription" name="PingFangHK-Semibold" family="PingFang HK" pointSize="22"/>
-                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find me some dessert!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rV5-7G-JJ4">
+                                <rect key="frame" x="87" y="574" width="240" height="31"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="25"/>
+                                <color key="textColor" red="0.13095209002494812" green="0.31356936693191528" blue="0.5045589804649353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUc-3k-GYp">
-                                <rect key="frame" x="60" y="25" width="294" height="538.66666666666663"/>
+                                <rect key="frame" x="60" y="25" width="294" height="539"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vUc-3k-GYp" secondAttribute="height" multiplier="263:482" id="xiQ-aA-rsH"/>
                                 </constraints>
-                                <state key="normal" image="Mr Softee w:Tap Me">
+                                <state key="normal" image="TapMeMr.SweetTooth">
                                     <color key="titleColor" red="1" green="0.35440582479999999" blue="0.8791160214" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="NSp-52-P35" kind="show" identifier="displayDetailView" id="iYQ-c1-7cZ"/>
+                                    <action selector="iceCreamRandomButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nAi-dv-WsK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KK3-DY-ry5">
-                                <rect key="frame" x="331" y="614" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KK3-DY-ry5">
+                                <rect key="frame" x="299" y="35" width="100" height="34"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="18"/>
+                                <state key="normal" title="Saved Stores">
+                                    <color key="titleColor" red="0.13089609146118164" green="0.31344002485275269" blue="0.50857430696487427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="historyButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gTp-ZO-oYT"/>
                                 </connections>
@@ -57,6 +66,8 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="vUc-3k-GYp" secondAttribute="trailing" constant="40" id="4S6-Tu-JBW"/>
                             <constraint firstItem="qOe-lu-gDU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6yH-IA-LLT"/>
+                            <constraint firstItem="KK3-DY-ry5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="958-PH-N0v"/>
+                            <constraint firstAttribute="trailing" secondItem="KK3-DY-ry5" secondAttribute="trailing" constant="15" id="HeI-jc-c2j"/>
                             <constraint firstItem="rV5-7G-JJ4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KyD-8U-KA7"/>
                             <constraint firstItem="vUc-3k-GYp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="Xwy-m3-iOj"/>
                             <constraint firstItem="vUc-3k-GYp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="a7E-dm-bEE"/>
@@ -71,11 +82,161 @@
                         <outlet property="historyButton" destination="KK3-DY-ry5" id="UYr-i7-c0G"/>
                         <outlet property="iceCreamButtonLabel" destination="rV5-7G-JJ4" id="akB-wX-qam"/>
                         <outlet property="iceCreamRandomButton" destination="vUc-3k-GYp" id="6Fu-FN-MXA"/>
+                        <segue destination="NSp-52-P35" kind="show" identifier="displayDetailView" id="SfF-dc-MlQ"/>
+                        <segue destination="BKM-1n-n4h" kind="show" identifier="displayHistoryViewController" id="nDL-IG-qEc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="31.884057971014496" y="37.5"/>
+        </scene>
+        <!--History View Controller-->
+        <scene sceneID="g2f-tE-wTX">
+            <objects>
+                <viewController title="History View Controller" id="BKM-1n-n4h" customClass="HistoryViewController" customModule="SweetTooth" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WwW-61-GFt"/>
+                        <viewControllerLayoutGuide type="bottom" id="utM-8w-uwo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jcf-Tl-b7e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CXd-Ng-oFV">
+                                <rect key="frame" x="0.0" y="100" width="414" height="636"/>
+                                <color key="backgroundColor" red="1" green="0.47468072175979614" blue="0.47601163387298584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SavedIceCreamStoreCell" rowHeight="200" id="q9e-uq-cJ1" customClass="SavedIceCreamStoreCell" customModule="SweetTooth" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="q9e-uq-cJ1" id="RwC-cL-AVa">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S26-TT-JLN" userLabel="StoreImageView">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ik4-O5-nQl" userLabel="ShareButton">
+                                                    <rect key="frame" x="349" y="135" width="42" height="33"/>
+                                                    <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="17"/>
+                                                    <state key="normal" title="Share">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="shareButtonTapped:" destination="q9e-uq-cJ1" eventType="touchUpInside" id="rDa-Py-Qx9"/>
+                                                    </connections>
+                                                </button>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="p5d-mN-KWO">
+                                                    <rect key="frame" x="23" y="23" width="303" height="107"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EGGLOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52o-Jv-PZk" userLabel="StoreNameLabel">
+                                                            <rect key="frame" x="0.0" y="0.0" width="110" height="37"/>
+                                                            <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="30"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60 Mulberry St, New York, NY 10013" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtr-Za-i2t" userLabel="AddressLabel">
+                                                            <rect key="frame" x="0.0" y="47" width="303" height="25"/>
+                                                            <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="20"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yelp Rating: 4.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhI-D7-BJo" userLabel="RatingLabel">
+                                                            <rect key="frame" x="0.0" y="82" width="134" height="25"/>
+                                                            <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="20"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPW-mM-wY2" userLabel="DirectionsButton">
+                                                    <rect key="frame" x="229" y="135" width="75" height="33"/>
+                                                    <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="17"/>
+                                                    <state key="normal" title="Directions">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="directionsButtonTapped:" destination="q9e-uq-cJ1" eventType="touchUpInside" id="s8H-6T-00g"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="S26-TT-JLN" secondAttribute="trailing" id="2en-OR-stG"/>
+                                                <constraint firstAttribute="bottom" secondItem="S26-TT-JLN" secondAttribute="bottom" id="AsZ-Bb-0V4"/>
+                                                <constraint firstItem="p5d-mN-KWO" firstAttribute="top" secondItem="RwC-cL-AVa" secondAttribute="topMargin" constant="15" id="E4v-BL-hF1"/>
+                                                <constraint firstItem="p5d-mN-KWO" firstAttribute="leading" secondItem="RwC-cL-AVa" secondAttribute="leadingMargin" constant="15" id="Ify-7F-Gs3"/>
+                                                <constraint firstItem="qPW-mM-wY2" firstAttribute="centerY" secondItem="Ik4-O5-nQl" secondAttribute="centerY" id="NVA-a2-uxg"/>
+                                                <constraint firstItem="Ik4-O5-nQl" firstAttribute="top" secondItem="p5d-mN-KWO" secondAttribute="bottom" constant="5" id="TvY-j8-Vt5"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Ik4-O5-nQl" secondAttribute="trailing" constant="15" id="nQZ-cg-LAB"/>
+                                                <constraint firstItem="S26-TT-JLN" firstAttribute="top" secondItem="RwC-cL-AVa" secondAttribute="top" id="ocW-6I-HL9"/>
+                                                <constraint firstItem="S26-TT-JLN" firstAttribute="leading" secondItem="RwC-cL-AVa" secondAttribute="leading" id="p7G-yX-xZA"/>
+                                                <constraint firstItem="Ik4-O5-nQl" firstAttribute="leading" secondItem="qPW-mM-wY2" secondAttribute="trailing" constant="45" id="uiH-yd-zzH"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="addressLabel" destination="wtr-Za-i2t" id="sq9-zf-hDc"/>
+                                            <outlet property="directionsButton" destination="qPW-mM-wY2" id="a4Y-Ko-6dp"/>
+                                            <outlet property="ratingLabel" destination="yhI-D7-BJo" id="s0t-AV-n2q"/>
+                                            <outlet property="shareButton" destination="Ik4-O5-nQl" id="N3y-6j-EBi"/>
+                                            <outlet property="storeImageView" destination="S26-TT-JLN" id="sVT-fI-fNC"/>
+                                            <outlet property="storeNameLabel" destination="52o-Jv-PZk" id="Xqk-Xg-x4r"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BKM-1n-n4h" id="wcP-ZA-v3i"/>
+                                    <outlet property="delegate" destination="BKM-1n-n4h" id="Ngh-SH-9gT"/>
+                                </connections>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="x07-xI-XY0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="cFR-D0-zE8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saved Ice Cream Stores" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdz-TN-nNv">
+                                <rect key="frame" x="82" y="35" width="250" height="31"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="25"/>
+                                <color key="textColor" red="0.13089609150000001" green="0.3134400249" blue="0.50857430699999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUX-4i-Fpn">
+                                <rect key="frame" x="15" y="30" width="37" height="34"/>
+                                <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="18"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.13089609150000001" green="0.3134400249" blue="0.50857430699999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="BKM-1n-n4h" eventType="touchUpInside" id="wgf-fK-d09"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x07-xI-XY0" firstAttribute="top" secondItem="jcf-Tl-b7e" secondAttribute="top" id="06X-Bm-QPL"/>
+                            <constraint firstItem="x07-xI-XY0" firstAttribute="leading" secondItem="jcf-Tl-b7e" secondAttribute="leading" id="44a-hw-gT2"/>
+                            <constraint firstItem="CXd-Ng-oFV" firstAttribute="top" secondItem="x07-xI-XY0" secondAttribute="bottom" id="4ci-iD-E3D"/>
+                            <constraint firstAttribute="trailing" secondItem="x07-xI-XY0" secondAttribute="trailing" id="53o-p0-BNR"/>
+                            <constraint firstItem="Vdz-TN-nNv" firstAttribute="centerX" secondItem="x07-xI-XY0" secondAttribute="centerX" id="901-Tw-sVx"/>
+                            <constraint firstItem="TUX-4i-Fpn" firstAttribute="leading" secondItem="jcf-Tl-b7e" secondAttribute="leading" constant="15" id="UVe-fO-Um1"/>
+                            <constraint firstItem="utM-8w-uwo" firstAttribute="top" secondItem="CXd-Ng-oFV" secondAttribute="bottom" id="UZf-Yr-Xmw"/>
+                            <constraint firstItem="Vdz-TN-nNv" firstAttribute="centerY" secondItem="x07-xI-XY0" secondAttribute="centerY" id="eEC-Lo-VJT"/>
+                            <constraint firstAttribute="trailing" secondItem="CXd-Ng-oFV" secondAttribute="trailing" id="oht-iq-MNk"/>
+                            <constraint firstItem="CXd-Ng-oFV" firstAttribute="leading" secondItem="jcf-Tl-b7e" secondAttribute="leading" id="tde-yT-F7s"/>
+                            <constraint firstItem="TUX-4i-Fpn" firstAttribute="top" secondItem="WwW-61-GFt" secondAttribute="bottom" constant="10" id="uWt-QY-QyE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="savedIceCreamStoresLabel" destination="Vdz-TN-nNv" id="1B0-5A-cGc"/>
+                        <outlet property="tableView" destination="CXd-Ng-oFV" id="Wb2-fh-wat"/>
+                        <segue destination="ecj-rQ-K74" kind="unwind" identifier="unwindToIceCreamSelectorViewController" unwindAction="unwindToIceCreamSelectorViewControllerWith_segue:" id="V3q-fM-ynw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1D1-NX-xzC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ecj-rQ-K74" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="763.768115942029" y="-720.6521739130435"/>
         </scene>
         <!--Ice Cream Detail View Controller-->
         <scene sceneID="1Qi-0P-KAQ">
@@ -92,25 +253,29 @@
                             <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="CMx-CL-7h4">
                                 <rect key="frame" x="0.0" y="375" width="414" height="361"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcS-WD-JHT">
-                                <rect key="frame" x="40" y="375" width="334" height="36"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcS-WD-JHT">
+                                <rect key="frame" x="40" y="375" width="334" height="37"/>
+                                <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="30"/>
+                                <color key="textColor" red="0.13095209002494812" green="0.31356936693191528" blue="0.5045589804649353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="LLK-Lc-per">
-                                <rect key="frame" x="42" y="421" width="330" height="60.666666666666686"/>
+                                <rect key="frame" x="42" y="422" width="330" height="76"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Zk-cJ-0GY">
-                                        <rect key="frame" x="105.66666666666667" y="0.0" width="118.66666666666664" height="20.333333333333314"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dxd-Ab-LPZ">
+                                        <rect key="frame" x="109" y="0.0" width="112" height="34"/>
+                                        <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="18"/>
+                                        <state key="normal" title="Location Label">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="locationLabelButtonTapped:" destination="NSp-52-P35" eventType="touchUpInside" id="dTV-a7-DL5"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTK-cA-eYY">
-                                        <rect key="frame" x="114.33333333333336" y="40.333333333333314" width="101.66666666666664" height="20.333333333333371"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="117" y="54" width="96" height="22"/>
+                                        <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="18"/>
+                                        <color key="textColor" red="0.13095208999999999" green="0.31356936689999998" blue="0.50455898050000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -121,7 +286,7 @@
                                     <constraint firstAttribute="height" constant="375" id="Bzd-Qw-oda"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXg-rf-U9Q">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXg-rf-U9Q" userLabel="BackButton">
                                 <rect key="frame" x="42" y="578" width="60" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="4lN-qv-HDF"/>
@@ -129,20 +294,31 @@
                                     <constraint firstAttribute="width" constant="60" id="y8U-Mr-PAf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="11"/>
-                                <state key="normal" title="Back" backgroundImage="Mr Softee">
+                                <state key="normal" backgroundImage="BackMr.SweetTooth">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="repickRandomIceCreamButtonTapped:" destination="NSp-52-P35" eventType="touchUpInside" id="CKf-gC-zb1"/>
-                                    <segue destination="CUr-2L-cef" kind="unwind" unwindAction="unwindToIceCreamSelectorViewControllerWith_segue:" id="rwk-hC-SPA"/>
+                                    <action selector="backButtonTapped:" destination="NSp-52-P35" eventType="touchUpInside" id="Xm8-ME-wh2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYZ-vD-Eoc">
-                                <rect key="frame" x="306" y="637" width="48" height="33"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="Share"/>
+                                <rect key="frame" x="309" y="636" width="45" height="34"/>
+                                <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="18"/>
+                                <state key="normal" title="Share">
+                                    <color key="titleColor" red="0.13095208999999999" green="0.31356936689999998" blue="0.50455898050000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="shareButonTapped:" destination="NSp-52-P35" eventType="touchUpInside" id="wmI-6d-6fZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WB-JN-YBS" userLabel="SaveButton">
+                                <rect key="frame" x="189" y="636" width="37" height="34"/>
+                                <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="18"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="0.14716672897338867" green="0.32956796884536743" blue="0.51228153705596924" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveButtonTapped:" destination="NSp-52-P35" eventType="touchUpInside" id="haJ-f5-sGD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -156,11 +332,14 @@
                             <constraint firstItem="fcS-WD-JHT" firstAttribute="top" secondItem="SsQ-Se-Fxj" secondAttribute="bottom" id="SaE-r2-dd3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="OYZ-vD-Eoc" secondAttribute="trailing" constant="40" id="Sak-CQ-XpT"/>
                             <constraint firstAttribute="trailing" secondItem="CMx-CL-7h4" secondAttribute="trailing" id="Vjk-jf-9Mh"/>
+                            <constraint firstItem="3WB-JN-YBS" firstAttribute="centerY" secondItem="WXg-rf-U9Q" secondAttribute="centerY" id="Vyv-iY-YBi"/>
                             <constraint firstItem="LLK-Lc-per" firstAttribute="leading" secondItem="Fk7-VJ-Uya" secondAttribute="leadingMargin" constant="22" id="XIZ-QK-P83"/>
                             <constraint firstAttribute="trailing" secondItem="SsQ-Se-Fxj" secondAttribute="trailing" id="Yzh-9U-M7O"/>
                             <constraint firstItem="WXg-rf-U9Q" firstAttribute="leading" secondItem="Fk7-VJ-Uya" secondAttribute="leadingMargin" constant="22" id="bOl-Sy-lhl"/>
+                            <constraint firstItem="3WB-JN-YBS" firstAttribute="centerY" secondItem="OYZ-vD-Eoc" secondAttribute="centerY" id="f7s-du-Rpm"/>
                             <constraint firstItem="fcS-WD-JHT" firstAttribute="leading" secondItem="Fk7-VJ-Uya" secondAttribute="leadingMargin" constant="20" id="ipv-S8-DIJ"/>
                             <constraint firstItem="hJE-Kn-M6P" firstAttribute="top" secondItem="CMx-CL-7h4" secondAttribute="bottom" id="pXA-eh-BpD"/>
+                            <constraint firstItem="3WB-JN-YBS" firstAttribute="centerX" secondItem="CMx-CL-7h4" secondAttribute="centerX" id="rmB-pr-35e"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fcS-WD-JHT" secondAttribute="trailing" constant="20" id="sLv-hv-egG"/>
                             <constraint firstItem="hJE-Kn-M6P" firstAttribute="top" secondItem="OYZ-vD-Eoc" secondAttribute="bottom" constant="66" id="xcI-IT-6rO"/>
                             <constraint firstItem="SsQ-Se-Fxj" firstAttribute="top" secondItem="Fk7-VJ-Uya" secondAttribute="top" id="z0f-uu-yb4"/>
@@ -168,12 +347,14 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="locationLabel" destination="4Zk-cJ-0GY" id="Dzl-sf-tQH"/>
+                        <outlet property="backButton" destination="WXg-rf-U9Q" id="Gg1-vB-khx"/>
+                        <outlet property="locationLabelButton" destination="Dxd-Ab-LPZ" id="RXc-pa-KDr"/>
                         <outlet property="ratingLabel" destination="pTK-cA-eYY" id="fJQ-aE-fO0"/>
-                        <outlet property="repickRandomIceCreamButton" destination="WXg-rf-U9Q" id="Asy-no-FLW"/>
+                        <outlet property="saveButton" destination="3WB-JN-YBS" id="5Vl-WL-Myo"/>
                         <outlet property="shareButton" destination="OYZ-vD-Eoc" id="N3p-gj-1YO"/>
                         <outlet property="storeNameLabel" destination="fcS-WD-JHT" id="stR-t5-95D"/>
                         <outlet property="storePicImageView" destination="SsQ-Se-Fxj" id="2eO-bx-L79"/>
+                        <segue destination="CUr-2L-cef" kind="unwind" identifier="unwindToIceCreamSelectorViewController" unwindAction="unwindToIceCreamSelectorViewControllerWith_segue:" id="czC-4E-3BT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ye4-jJ-Ie3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -184,7 +365,7 @@
     </scenes>
     <resources>
         <image name="BG" width="375" height="667"/>
-        <image name="Mr Softee" width="180" height="482"/>
-        <image name="Mr Softee w:Tap Me" width="540" height="1446"/>
+        <image name="BackMr.SweetTooth" width="180" height="482"/>
+        <image name="TapMeMr.SweetTooth" width="180" height="482"/>
     </resources>
 </document>

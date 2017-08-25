@@ -18,6 +18,14 @@
 		32C7067E1F1E8EF600A1C1B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C7067D1F1E8EF600A1C1B6 /* Default-568h@2x.png */; };
 		32C706811F1E9B1400A1C1B6 /* YLPClient+Futures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C706801F1E9B1400A1C1B6 /* YLPClient+Futures.swift */; };
 		32C706831F20EB5000A1C1B6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C706821F20EB5000A1C1B6 /* Location.swift */; };
+		32E26B121F505CC0007CB5B3 /* Candara Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32E26B0E1F505CB8007CB5B3 /* Candara Bold Italic.ttf */; };
+		32E26B131F505CC0007CB5B3 /* Candara Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32E26B0F1F505CB8007CB5B3 /* Candara Bold.ttf */; };
+		32E26B141F505CC0007CB5B3 /* Candara Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32E26B101F505CB8007CB5B3 /* Candara Italic.ttf */; };
+		32E26B151F505CC0007CB5B3 /* Candara.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32E26B111F505CB8007CB5B3 /* Candara.ttf */; };
+		32E26B171F50734B007CB5B3 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E26B161F50734B007CB5B3 /* CoreDataHelper.swift */; };
+		32E26B191F507656007CB5B3 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E26B181F507656007CB5B3 /* HistoryViewController.swift */; };
+		32E26B1B1F507B2E007CB5B3 /* SavedIceCreamStoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E26B1A1F507B2E007CB5B3 /* SavedIceCreamStoreCell.swift */; };
+		32E26B1E1F5096F9007CB5B3 /* SweetTooth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32E26B1C1F5096F9007CB5B3 /* SweetTooth.xcdatamodeld */; };
 		A7B78066565CC4DA236D8BA6 /* Pods_SweetTooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDED377036A091EF554A2914 /* Pods_SweetTooth.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +43,14 @@
 		32C706801F1E9B1400A1C1B6 /* YLPClient+Futures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "YLPClient+Futures.swift"; path = "Helpers/YLPClient+Futures.swift"; sourceTree = "<group>"; };
 		32C706821F20EB5000A1C1B6 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		32C706841F20F9F600A1C1B6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		32E26B0E1F505CB8007CB5B3 /* Candara Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Candara Bold Italic.ttf"; sourceTree = "<group>"; };
+		32E26B0F1F505CB8007CB5B3 /* Candara Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Candara Bold.ttf"; sourceTree = "<group>"; };
+		32E26B101F505CB8007CB5B3 /* Candara Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Candara Italic.ttf"; sourceTree = "<group>"; };
+		32E26B111F505CB8007CB5B3 /* Candara.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Candara.ttf; sourceTree = "<group>"; };
+		32E26B161F50734B007CB5B3 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		32E26B181F507656007CB5B3 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		32E26B1A1F507B2E007CB5B3 /* SavedIceCreamStoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedIceCreamStoreCell.swift; sourceTree = "<group>"; };
+		32E26B1D1F5096F9007CB5B3 /* SweetTooth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SweetTooth.xcdatamodel; sourceTree = "<group>"; };
 		56490869F3BB026329154FB3 /* Pods-SweetTooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetTooth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SweetTooth/Pods-SweetTooth.debug.xcconfig"; sourceTree = "<group>"; };
 		BDED377036A091EF554A2914 /* Pods_SweetTooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetTooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6BB0F2942023771CC3D88B /* Pods-SweetTooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetTooth.release.xcconfig"; path = "Pods/Target Support Files/Pods-SweetTooth/Pods-SweetTooth.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,7 +99,9 @@
 		32C7064A1F1E63AD00A1C1B6 /* SweetTooth */ = {
 			isa = PBXGroup;
 			children = (
+				32E26B0D1F505C72007CB5B3 /* Candara */,
 				32C7064B1F1E63AD00A1C1B6 /* AppDelegate.swift */,
+				32E26B1C1F5096F9007CB5B3 /* SweetTooth.xcdatamodeld */,
 				32C706521F1E63AD00A1C1B6 /* Assets.xcassets */,
 				32C706671F1E853E00A1C1B6 /* Controllers */,
 				32C7066F1F1E861C00A1C1B6 /* Storyboards */,
@@ -97,8 +115,9 @@
 		32C706671F1E853E00A1C1B6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				32C706771F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift */,
 				32C706691F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift */,
+				32E26B181F507656007CB5B3 /* HistoryViewController.swift */,
+				32C706771F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -125,6 +144,7 @@
 			children = (
 				32C7067B1F1E8C8400A1C1B6 /* IceCreamStore.swift */,
 				32C706821F20EB5000A1C1B6 /* Location.swift */,
+				32E26B1A1F507B2E007CB5B3 /* SavedIceCreamStoreCell.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -133,8 +153,20 @@
 			isa = PBXGroup;
 			children = (
 				32C706801F1E9B1400A1C1B6 /* YLPClient+Futures.swift */,
+				32E26B161F50734B007CB5B3 /* CoreDataHelper.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		32E26B0D1F505C72007CB5B3 /* Candara */ = {
+			isa = PBXGroup;
+			children = (
+				32E26B0E1F505CB8007CB5B3 /* Candara Bold Italic.ttf */,
+				32E26B0F1F505CB8007CB5B3 /* Candara Bold.ttf */,
+				32E26B101F505CB8007CB5B3 /* Candara Italic.ttf */,
+				32E26B111F505CB8007CB5B3 /* Candara.ttf */,
+			);
+			path = Candara;
 			sourceTree = "<group>";
 		};
 		D0E120940BC0FDE7C7DE73B2 /* Frameworks */ = {
@@ -209,10 +241,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E26B131F505CC0007CB5B3 /* Candara Bold.ttf in Resources */,
 				32C706711F1E861C00A1C1B6 /* Main.storyboard in Resources */,
+				32E26B151F505CC0007CB5B3 /* Candara.ttf in Resources */,
 				32C706761F1E862F00A1C1B6 /* LaunchScreen.storyboard in Resources */,
+				32E26B121F505CC0007CB5B3 /* Candara Bold Italic.ttf in Resources */,
 				32C706531F1E63AD00A1C1B6 /* Assets.xcassets in Resources */,
 				32C7067E1F1E8EF600A1C1B6 /* Default-568h@2x.png in Resources */,
+				32E26B141F505CC0007CB5B3 /* Candara Italic.ttf in Resources */,
 				32C706751F1E862F00A1C1B6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,11 +309,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				32C706781F1E8BC000A1C1B6 /* IceCreamDetailViewController.swift in Sources */,
+				32E26B1B1F507B2E007CB5B3 /* SavedIceCreamStoreCell.swift in Sources */,
 				32C7066B1F1E853E00A1C1B6 /* IceCreamSelectorViewController.swift in Sources */,
 				32C7067C1F1E8C8400A1C1B6 /* IceCreamStore.swift in Sources */,
+				32E26B171F50734B007CB5B3 /* CoreDataHelper.swift in Sources */,
+				32E26B1E1F5096F9007CB5B3 /* SweetTooth.xcdatamodeld in Sources */,
 				32C706811F1E9B1400A1C1B6 /* YLPClient+Futures.swift in Sources */,
 				32C706831F20EB5000A1C1B6 /* Location.swift in Sources */,
 				32C7064C1F1E63AD00A1C1B6 /* AppDelegate.swift in Sources */,
+				32E26B191F507656007CB5B3 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +467,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32E26B1C1F5096F9007CB5B3 /* SweetTooth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32E26B1D1F5096F9007CB5B3 /* SweetTooth.xcdatamodel */,
+			);
+			currentVersion = 32E26B1D1F5096F9007CB5B3 /* SweetTooth.xcdatamodel */;
+			path = SweetTooth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 32C706401F1E63AD00A1C1B6 /* Project object */;
 }

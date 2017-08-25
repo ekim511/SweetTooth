@@ -39,5 +39,12 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Candara Bold Italic.ttf</string>
+		<string>Candara Bold.ttf</string>
+		<string>Candara Italic.ttf</string>
+		<string>Candara.ttf</string>
+	</array>
 </dict>
 </plist>

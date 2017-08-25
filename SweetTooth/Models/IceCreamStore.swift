@@ -13,6 +13,7 @@ class IceCreamStore {
     var name : String!
     var rating : String?
     var imageURL : String?
+    var url : String?
     
     var location : YLPLocation?
     var address = ""
@@ -25,6 +26,7 @@ class IceCreamStore {
         self.name = object.name
         self.location = object.location
         self.rating = String(describing:object.rating)
+        self.url = String(describing: object.url)
         
         if let imageURLConst = object.imageURL {
             self.imageURL = String(describing :imageURLConst)
@@ -40,22 +42,4 @@ class IceCreamStore {
         zipCode = (location?.postalCode)!
         fullAddress = "\(address), \(city), \(state) \(zipCode)"
     }
-    
-//    init(dictionary : [String : Any]) {
-//        self.name = dictionary["name"] as? String
-//        
-//        let imageURLString = dictionary["image_url"] as? String
-//        if imageURLString != nil {
-//            self.imageURL = URL(string: imageURLString!)!
-//        }
-//        
-//        self.location = dictionary["location"] as? NSDictionary
-//        var address = ""
-//        if location != nil {
-//            let addressArray = location!["address"] as? NSArray
-//            if addressArray != nil && addressArray!.count > 0 {
-//                address = addressArray![0] as! String
-//            }
-//        }
-//    }
 }
